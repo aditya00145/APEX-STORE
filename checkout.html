@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Checkout | APEX STORE</title>
+<meta name="description" content="Secure checkout for your APEX STORE order.">
+<meta name="robots" content="noindex,nofollow">
+<link rel="canonical" href="https://apexstore.in/checkout.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%230E1013'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' fill='%23D4A24C' font-family='Georgia,serif'%3EA%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="APEX STORE">
+<meta property="og:title" content="Checkout | APEX STORE">
+<meta property="og:description" content="Secure checkout for your APEX STORE order.">
+<meta property="og:url" content="https://apexstore.in/checkout.html">
+<meta property="og:image" content="https://apexstore.in/images/rog-strix-g16.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Checkout | APEX STORE">
+<meta name="twitter:description" content="Secure checkout for your APEX STORE order.">
+<meta name="twitter:image" content="https://apexstore.in/images/rog-strix-g16.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-laptop" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="11" rx="1"/><path d="M2 19h20"/></symbol>
+    <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="13" rx="1"/><path d="M12 16v4M8 21h8"/></symbol>
+    <symbol id="i-tv" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="12" rx="1"/><path d="M8 21h8M9 2l3 3 3-3"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></symbol>
+    <symbol id="i-gpu" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="10" rx="1"/><circle cx="7.5" cy="12" r="2.5"/><circle cx="16.5" cy="12" r="2.5"/></symbol>
+    <symbol id="i-cart" viewBox="0 0 24 24"><path d="M3 4h2l2.5 11h11L21 7H6"/><circle cx="9" cy="20" r="1"/><circle cx="17" cy="20" r="1"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M1 6h12v10H1zM13 10h5l3 3v3h-8"/><circle cx="5" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></symbol>
+    <symbol id="i-return" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7M3 4v5h5"/></symbol>
+    <symbol id="i-badge" viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"/><path d="M9 14l-2 7 5-2 5 2-2-7"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="1"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></symbol>
+  </defs>
+</svg>
+<div class="topbar">
+  <div class="wrap">
+    <span>Free delivery on orders above ₹999</span>
+    <span>
+      WhatsApp: <a href="https://wa.me/919665687711" target="_blank" rel="noopener">+91 96656 87711</a>
+      &nbsp;·&nbsp;
+      <a href="mailto:kiran.aditya2014@gmail.com">kiran.aditya2014@gmail.com</a>
+    </span>
+  </div>
+</div>
+<header class="header" id="header">
+  <div class="wrap row">
+    <a href="index.html" class="logo" aria-label="APEX STORE home">APEX <b>STORE</b></a>
+    <nav class="nav" aria-label="Product categories">
+      <a href="laptops.html" data-nav="laptops">Gaming laptops</a>
+      <a href="monitors.html" data-nav="monitors">Gaming monitors</a>
+      <a href="televisions.html" data-nav="televisions">Televisions</a>
+      <a href="smartphones.html" data-nav="smartphones">Gaming smartphones</a>
+      <a href="graphics-cards.html" data-nav="graphics-cards">Graphics cards</a>
+      <a href="mouse.html" data-nav="mouse">Mouse</a>
+      <a href="keyboards.html" data-nav="keyboards">Keyboards</a>
+      <a href="tablets.html" data-nav="tablets">Tablets</a>
+      <a href="accessories.html" data-nav="accessories">Accessories</a>
+    </nav>
+    <form class="search" role="search" action="search.html" method="get"><label for="hq" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Search products</label><input id="hq" name="q" type="search" placeholder="Search products" autocomplete="off"></form>
+    <button type="button" class="cart" id="cartOpen" aria-label="Open cart, 0 items" aria-haspopup="dialog">
+      <svg class="icon"><use href="#i-cart"/></svg>
+      <span class="count" id="cartCount">0</span>
+    </button>
+  </div>
+</header>
+<main class="wrap">
+
+  <div class="page-head">
+    <a class="back" href="index.html">
+      <svg class="icon sm" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg> Continue shopping
+    </a>
+    <h1 class="serif">Checkout</h1>
+  </div>
+
+  <div class="checkout">
+
+    <!-- ===== Order summary (left column) ===== -->
+    <section class="panel" id="summary" aria-labelledby="summaryHead">
+      <h2 id="summaryHead">Order summary</h2>
+      <ul class="items" id="itemList"></ul>
+      <p class="empty" id="emptyMsg" hidden>Your cart is empty. <a class="continue" href="index.html">Browse products</a></p>
+
+      <dl class="totals">
+        <div><dt>Subtotal</dt><dd id="subtotal">₹0</dd></div>
+        <div><dt>Delivery</dt><dd id="delivery">₹0</dd></div>
+        <div><dt>GST included (18%)</dt><dd id="gst">₹0</dd></div>
+        <div id="codRow" hidden><dt>Cash on delivery fee</dt><dd id="cod">₹0</dd></div>
+        <div class="grand"><dt>Total</dt><dd id="total">₹0</dd></div>
+      </dl>
+      <a class="continue" href="index.html">Continue shopping</a>
+    </section>
+
+    <div class="stack">
+
+    <!-- ===== Delivery details (between cart and payment) ===== -->
+    <section class="panel" id="delivery" aria-labelledby="delHead">
+      <h2 id="delHead">Delivery details</h2>
+
+      <div id="savedView" hidden>
+        <div class="addr-card">
+          <strong id="sName"></strong>
+          <p id="sPhone"></p>
+          <p id="sAddr"></p>
+        </div>
+        <div class="addr-actions">
+          <button type="button" class="link-btn" id="editAddr">Edit</button>
+          <button type="button" class="link-btn" id="clearAddr">Clear saved details</button>
+        </div>
+      </div>
+
+      <form id="addrForm" novalidate hidden>
+        <div class="field">
+          <label for="dName">Full name</label>
+          <input class="input" id="dName" name="name" type="text" autocomplete="name" aria-describedby="err_dName">
+          <p class="field-err" id="err_dName" hidden></p>
+        </div>
+        <div class="field">
+          <label for="dPhone">Phone number</label>
+          <input class="input" id="dPhone" name="phone" type="tel" autocomplete="tel" placeholder="10-digit mobile number" aria-describedby="err_dPhone">
+          <p class="field-err" id="err_dPhone" hidden></p>
+        </div>
+        <div class="field">
+          <label for="dEmail">Email address (optional, for order confirmation)</label>
+          <input class="input" id="dEmail" name="email" type="email" autocomplete="email" aria-describedby="err_dEmail">
+          <p class="field-err" id="err_dEmail" hidden></p>
+        </div>
+        <div class="field">
+          <label for="dPin">PIN code</label>
+          <input class="input" id="dPin" name="pin" type="text" inputmode="numeric" autocomplete="postal-code" maxlength="6" aria-describedby="err_dPin">
+          <p class="field-err" id="err_dPin" hidden></p>
+        </div>
+        <div class="field">
+          <label for="dArea">Locality or area</label>
+          <input class="input" id="dArea" name="area" type="text" autocomplete="address-line2" aria-describedby="err_dArea">
+          <p class="field-err" id="err_dArea" hidden></p>
+        </div>
+        <div class="field">
+          <label for="dLine">Flat, house number, building or street</label>
+          <input class="input" id="dLine" name="flat" type="text" autocomplete="address-line1" aria-describedby="err_dLine">
+          <p class="field-err" id="err_dLine" hidden></p>
+        </div>
+        <div class="field">
+          <label for="dLandmark">Landmark (optional)</label>
+          <input class="input" id="dLandmark" name="landmark" type="text" aria-describedby="err_dLandmark">
+          <p class="field-err" id="err_dLandmark" hidden></p>
+        </div>
+        <div class="field">
+          <label for="dCity">City</label>
+          <input class="input" id="dCity" name="city" type="text" autocomplete="address-level2" aria-describedby="err_dCity">
+          <p class="field-err" id="err_dCity" hidden></p>
+        </div>
+        <div class="field">
+          <label for="dState">State or union territory</label>
+          <select class="input" id="dState" name="state" autocomplete="address-level1" aria-describedby="err_dState">
+            <option value="">Select state</option>
+          </select>
+          <p class="field-err" id="err_dState" hidden></p>
+        </div>
+
+        <label class="check"><input type="checkbox" id="saveAddr" checked> Save these details for next time on this device.</label>
+        <button class="btn" type="submit">Use this address</button>
+        <p class="fine">Used only to deliver your order and send order updates. Order details are passed to our order-handling service (Zapier). <a href="privacy.html">Privacy policy</a></p>
+      </form>
+    </section>
+
+    <!-- ===== Payment panel (right column) ===== -->
+    <section class="panel" aria-labelledby="payHead">
+      <h2 id="payHead">Pay with UPI</h2>
+
+      <div class="tabs" role="tablist" aria-label="Payment method">
+        <button class="tab" role="tab" id="tabId" aria-selected="true" aria-controls="panelId" type="button">UPI ID</button>
+        <button class="tab" role="tab" id="tabQr" aria-selected="false" aria-controls="panelQr" tabindex="-1" type="button">UPI QR code</button>
+        <button class="tab" role="tab" id="tabCod" aria-selected="false" aria-controls="panelCod" tabindex="-1" type="button">Cash on delivery</button>
+      </div>
+
+      <div class="amount">
+        <span>Amount to pay</span>
+        <strong data-amount>₹0</strong>
+      </div>
+
+      <!-- UPI ID panel -->
+      <div role="tabpanel" id="panelId" aria-labelledby="tabId">
+        <label class="field-label" for="upiId">Store UPI ID</label>
+        <div class="row-input">
+          <input class="input" id="upiId" type="text" value="kiran.aditya2014-1@oksbi" readonly style="color:#000000!important;background:#ffffff!important;font-weight:600;">
+          <button class="btn secondary" id="copyBtn" type="button">Copy</button>
+        </div>
+        <div style="margin-top:12px">
+          <a class="btn" id="payUpiBtn" href="upi://pay?pa=kiran.aditya2014-1@oksbi&pn=Apex%20Store&cu=INR" style="height:42px;font-size:14px;width:100%;text-align:center">⚡ Pay via UPI App (GPay / PhonePe / Paytm)</a>
+        </div>
+      </div>
+
+      <!-- UPI QR panel -->
+      <div role="tabpanel" id="panelQr" aria-labelledby="tabQr" hidden>
+        <div class="qr-box" style="display:grid;place-items:center;background:#fff;padding:16px;border-radius:4px;max-width:240px;margin:0 auto">
+          <img id="qrImg" src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi://pay?pa=kiran.aditya2014-1@oksbi&pn=Apex%20Store&cu=INR" alt="UPI QR code for payment" width="200" height="200">
+        </div>
+        <p class="qr-label" style="text-align:center;margin-top:8px">Scan with any UPI app</p>
+      </div>
+
+      <!-- Cash on delivery panel: a nominal fee of Rs 5 is added to the order total -->
+      <div role="tabpanel" id="panelCod" aria-labelledby="tabCod" hidden>
+        <p class="cod-note">Cash on delivery adds a nominal fee of ₹5 to your order. Pay the delivery agent in cash when your order arrives.</p>
+      </div>
+
+      <!-- Confirmation -->
+      <p class="help" id="payHelp">Pay the exact amount, then enter your UPI transaction ID below.</p>
+      <form id="confirmForm" novalidate>
+        <label class="field-label" id="txnLabel" for="txnId">UPI transaction ID or reference number</label>
+        <div class="row-input">
+          <input class="input" id="txnId" name="txnId" type="text" autocomplete="off" aria-describedby="txnHelp">
+          <button class="btn" id="confirmBtn" type="submit">Confirm payment</button>
+        </div>
+        <p class="sr-only" id="txnHelp">8 to 25 letters or numbers.</p>
+        <p class="err" id="txnError" role="alert" hidden></p>
+        <p class="err" id="codError" role="alert" hidden></p>
+        <p class="success" id="successMsg" role="status" hidden></p>
+      </form>
+    </section>
+    </div>
+
+  </div>
+</main>
+
+<!-- ===== Order Receipt Modal ===== -->
+<div class="receipt-modal" id="receiptModal" hidden>
+  <div class="receipt-box">
+    <div class="receipt-header">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+      <h2 class="receipt-title">Order Confirmed!</h2>
+      <p class="receipt-id" id="rcptOrderId">Order ID: APEX-IND-000000</p>
+      <p style="font-size:14px;color:var(--muted);margin-top:4px">Thank you! Your order has been placed and is being prepared.</p>
+    </div>
+    <dl class="receipt-meta">
+      <div>
+        <dt>Delivery To:</dt>
+        <dd id="rcptCustomer">-</dd>
+      </div>
+      <div>
+        <dt>Payment Method:</dt>
+        <dd id="rcptMethod">-</dd>
+      </div>
+      <div>
+        <dt>Estimated Delivery:</dt>
+        <dd>3–5 Business Days (Express)</dd>
+      </div>
+      <div>
+        <dt>Order Status:</dt>
+        <dd style="color:var(--accent);font-weight:600">Processing & Verified</dd>
+      </div>
+    </dl>
+    <table class="receipt-items">
+      <thead>
+        <tr><th>Item</th><th>Qty</th><th style="text-align:right">Price</th></tr>
+      </thead>
+      <tbody id="rcptItems"></tbody>
+      <tfoot>
+        <tr class="receipt-total-row"><td colspan="2">Total:</td><td style="text-align:right" id="rcptTotal">₹0</td></tr>
+      </tfoot>
+    </table>
+    <div class="receipt-actions">
+      <button type="button" class="btn secondary" onclick="window.print()" style="border:1px solid var(--line);background:var(--surface)">Print Receipt</button>
+      <a class="btn" id="rcptWhatsApp" href="#" target="_blank" rel="noopener" style="background:#25D366;border-color:#25D366;color:#fff">Track on WhatsApp</a>
+      <a class="btn" href="index.html">Continue Shopping</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a href="index.html" class="logo">APEX <b>STORE</b></a>
+        <div class="contact">
+          <span>Call or message on WhatsApp</span>
+          <a href="https://wa.me/919665687711" target="_blank" rel="noopener">+91 96656 87711</a>
+          <span>Email</span>
+          <a href="mailto:kiran.aditya2014@gmail.com">kiran.aditya2014@gmail.com</a>
+        </div>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="laptops.html">Gaming laptops</a></li>
+          <li><a href="monitors.html">Gaming monitors</a></li>
+          <li><a href="televisions.html">Televisions</a></li>
+          <li><a href="smartphones.html">Gaming smartphones</a></li>
+          <li><a href="graphics-cards.html">Graphics cards</a></li>
+          <li><a href="mouse.html">Mouse</a></li>
+          <li><a href="keyboards.html">Keyboards</a></li>
+          <li><a href="tablets.html">Tablets</a></li>
+          <li><a href="accessories.html">Accessories</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Help</h4>
+        <ul>
+          <li><a href="https://wa.me/919665687711" target="_blank" rel="noopener">WhatsApp support</a></li>
+          <li><a href="mailto:kiran.aditya2014@gmail.com">Email support</a></li>
+          <li><a href="https://wa.me/919665687711" target="_blank" rel="noopener">Track an order</a></li>
+          <li><a href="https://wa.me/919665687711" target="_blank" rel="noopener">Warranty claims</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Policies</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy policy</a></li>
+          <li><a href="terms.html">Terms of sale</a></li>
+          <li><a href="shipping.html">Shipping policy</a></li>
+          <li><a href="refund.html">Refund policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© 2026 APEX STORE. All rights reserved. Apex Store India Pvt. Ltd. · Dadar, Mumbai, Maharashtra 400028 · GSTIN: 27AABCA1234F1Z5</span>
+      <span>Prices in Indian Rupees (₹), inclusive of applicable taxes.</span>
+    </div>
+  </div>
+</footer>
+<!-- ===== Cart drawer (shared by index.html and checkout.html) ===== -->
+<div class="overlay" id="cartOverlay" hidden></div>
+<aside class="drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-labelledby="cartTitle" hidden>
+  <div class="drawer-head">
+    <h2 id="cartTitle">Your cart</h2>
+    <button type="button" class="icon-btn" id="cartClose" aria-label="Close cart">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <div class="drawer-body" id="cartBody"></div>
+  <div class="drawer-foot" id="cartFoot" hidden></div>
+</aside>
+<script>window.STORE_BASE = '';</script>
+<script src="store-data.js"></script>
+<script src="store.js"></script>
+<script>
+(function () {
+  /* ---------- Placeholder settings: replace before launch ---------- */
+  var FREE_DELIVERY_ABOVE = 999;   // placeholder threshold in ₹
+  var DELIVERY_CHARGE = 99;        // placeholder delivery fee in ₹
+  var GST_RATE = 0.18;
+  var COD_FEE = 5;                 // nominal cash on delivery fee in ₹
+  var method = 'upi';              // 'upi' | 'qr' | 'cod'             // placeholder GST rate; prices are assumed GST-inclusive
+
+  /* ---------- Cart state, shared with the front page through localStorage ---------- */
+  var STORE_KEY = 'apexStoreCart';
+  function loadCart() {
+    try {
+      var v = JSON.parse(localStorage.getItem(STORE_KEY) || localStorage.getItem('rogStoreCart'));
+      return Array.isArray(v) ? v : [];
+    } catch (e) { return []; }
+  }
+  function saveCart() {
+    try { localStorage.setItem(STORE_KEY, JSON.stringify(cart)); } catch (e) { /* storage unavailable */ }
+  }
+  var cart = loadCart();
+
+  var fmt = function (n) { return '₹' + Math.round(n).toLocaleString('en-IN'); };
+
+  function totals() {
+    var subtotal = cart.reduce(function (sum, i) { return sum + i.price * i.qty; }, 0);
+    var delivery = subtotal === 0 || subtotal > FREE_DELIVERY_ABOVE ? 0 : DELIVERY_CHARGE;
+    var gst = subtotal - subtotal / (1 + GST_RATE);   // included in the prices, shown for information
+    var cod = method === 'cod' ? COD_FEE : 0;
+    return { subtotal: subtotal, delivery: delivery, gst: gst, cod: cod, total: subtotal + delivery + cod };
+  }
+
+  /* ---------- Render: every total and both payment panels update together ---------- */
+  function render() {
+    var list = document.getElementById('itemList');
+    var count = 0;
+    list.innerHTML = cart.map(function (i) {
+      count += i.qty;
+      return '<li class="item">' +
+        '<div class="thumb" data-img="' + (i.img || '') + '"><span>' + i.name + '</span>' + (i.img ? '<img src="' + i.img + '" alt="' + i.name + '" onerror="this.remove()">' : '') + '</div>' +
+        '<div>' +
+          '<p class="item-name">' + i.name + '</p>' +
+          '<p class="item-price">' + fmt(i.price) + ' each</p>' +
+          '<div class="item-controls">' +
+            '<div class="qty" role="group" aria-label="Quantity for ' + i.name + '">' +
+              '<button type="button" data-action="dec" data-id="' + i.id + '" aria-label="Decrease quantity"' + (i.qty <= 1 ? ' disabled' : '') + '>-</button>' +
+              '<output aria-live="polite">' + i.qty + '</output>' +
+              '<button type="button" data-action="inc" data-id="' + i.id + '" aria-label="Increase quantity">+</button>' +
+            '</div>' +
+            '<button type="button" class="remove" data-action="remove" data-id="' + i.id + '">Remove</button>' +
+          '</div>' +
+        '</div>' +
+        '<p class="line-total">' + fmt(i.price * i.qty) + '</p>' +
+      '</li>';
+    }).join('');
+
+    var t = totals();
+    document.getElementById('subtotal').textContent = fmt(t.subtotal);
+    document.getElementById('delivery').textContent = t.delivery ? fmt(t.delivery) : 'Free';
+    document.getElementById('gst').textContent = fmt(t.gst);
+    document.getElementById('cod').textContent = fmt(t.cod);
+    document.getElementById('codRow').hidden = t.cod === 0;
+    document.getElementById('total').textContent = fmt(t.total);
+    document.querySelectorAll('[data-amount]').forEach(function (el) { el.textContent = fmt(t.total); });
+
+    var upiLink = 'upi://pay?pa=kiran.aditya2014-1@oksbi&pn=Apex%20Store&am=' + t.total + '&cu=INR';
+    var payBtn = document.getElementById('payUpiBtn');
+    if (payBtn) payBtn.href = upiLink;
+    var qr = document.getElementById('qrImg');
+    if (qr && t.total > 0) qr.src = 'https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=' + encodeURIComponent(upiLink);
+
+    document.getElementById('emptyMsg').hidden = cart.length > 0;
+    document.getElementById('confirmBtn').disabled = cart.length === 0;
+    document.getElementById('cartCount').textContent = count;
+  }
+
+  /* ---------- Quantity and remove controls (event delegation) ---------- */
+  document.getElementById('itemList').addEventListener('click', function (e) {
+    var btn = e.target.closest('[data-action]');
+    if (!btn) return;
+    var id = btn.getAttribute('data-id');
+    var item = cart.filter(function (i) { return i.id === id; })[0];
+    if (!item) return;
+    var action = btn.getAttribute('data-action');
+    if (action === 'inc') item.qty += 1;
+    if (action === 'dec' && item.qty > 1) item.qty -= 1;
+    if (action === 'remove') cart = cart.filter(function (i) { return i !== item; });
+    saveCart();
+    render();
+  });
+
+  /* ---------- Payment method tabs: UPI ID, UPI QR code, cash on delivery ----------
+     The amount stays visible in every tab. Cash on delivery adds the nominal fee. */
+  var tabs = [document.getElementById('tabId'), document.getElementById('tabQr'), document.getElementById('tabCod')];
+  var panels = [document.getElementById('panelId'), document.getElementById('panelQr'), document.getElementById('panelCod')];
+  var METHODS = ['upi', 'qr', 'cod'];
+  var txnLabel = document.getElementById('txnLabel');
+  var txnInput = document.getElementById('txnId');
+  var payHelp = document.getElementById('payHelp');
+  var confirmBtn = document.getElementById('confirmBtn');
+  var codError = document.getElementById('codError');
+  function selectTab(index) {
+    method = METHODS[index];
+    tabs.forEach(function (tab, i) {
+      var on = i === index;
+      tab.setAttribute('aria-selected', on ? 'true' : 'false');
+      tab.tabIndex = on ? 0 : -1;
+      panels[i].hidden = !on;
+    });
+    var isCod = method === 'cod';
+    txnLabel.hidden = isCod;
+    txnInput.hidden = isCod;
+    payHelp.textContent = isCod ? 'Pay the amount shown in cash when your order arrives.' : 'Pay the exact amount, then enter your UPI transaction ID below.';
+    confirmBtn.textContent = isCod ? 'Place cash on delivery order' : 'Confirm payment';
+    codError.hidden = true;
+    render();
+    tabs[index].focus();
+  }
+  tabs.forEach(function (tab, i) {
+    tab.addEventListener('click', function () { selectTab(i); });
+    tab.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+        e.preventDefault();
+        selectTab((i + (e.key === 'ArrowRight' ? 1 : 2)) % 3);
+      }
+    });
+  });
+
+  /* ---------- Copy UPI ID ---------- */
+  var copyBtn = document.getElementById('copyBtn');
+  var upiInput = document.getElementById('upiId');
+  copyBtn.addEventListener('click', function () {
+    var done = function () {
+      copyBtn.textContent = 'Copied';
+      copyBtn.classList.add('copied');
+      setTimeout(function () {
+        copyBtn.textContent = 'Copy';
+        copyBtn.classList.remove('copied');
+      }, 2000);
+    };
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(upiInput.value).then(done, function () { upiInput.select(); });
+    } else {
+      upiInput.select();
+      try { if (document.execCommand('copy')) done(); } catch (err) { /* copy not supported */ }
+    }
+  });
+
+  /* ---------- Confirm payment ---------- */
+  var form = document.getElementById('confirmForm');
+  var txn = document.getElementById('txnId');
+  var err = document.getElementById('txnError');
+  var success = document.getElementById('successMsg');
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (cart.length === 0) return;
+    if (method === 'cod') { placeCod(); return; }
+    var value = txn.value.trim();
+    if (!value) {
+      showError('Enter your UPI transaction ID.');
+      return;
+    }
+    if (!/^[A-Za-z0-9]{8,25}$/.test(value)) {
+      showError('Enter 8 to 25 letters or numbers, with no spaces or symbols.');
+      return;
+    }
+    txn.setAttribute('aria-invalid', 'false');
+    txn.removeAttribute('aria-describedby');
+    err.hidden = true;
+    placeOrder(value);
+  });
+
+  var ORDER_WEBHOOK = 'https://hooks.zapier.com/hooks/catch/29092735/41b1dbs/';
+  function sendOrder(txnRef) {
+    var a = memAddr || loadAddr();
+    var t = totals();
+    var payload = {
+      order_id: 'ROG-' + Date.now(),
+      created_at: new Date().toISOString(),
+      payment_method: method,
+      total: t.total,
+      subtotal: t.subtotal,
+      delivery: t.delivery,
+      cod_fee: t.cod,
+      gst_included: Math.round(t.gst),
+      items: cart.map(function (i) { return { id: i.id, name: i.name, qty: i.qty, unit_price: i.price }; }),
+      customer: {
+        name: a.name, phone: a.phone, email: a.email || '', pin: a.pin, area: a.area,
+        flat: a.flat, landmark: a.landmark || '', city: a.city, state: a.state
+      },
+      transaction_id: txnRef || '',
+      source: 'website'
+    };
+    return fetch(ORDER_WEBHOOK, {
+      method: 'POST', mode: 'no-cors', keepalive: true,
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).catch(function () {});
+  }
+
+  function showReceipt(orderId, a, t) {
+    document.getElementById('rcptOrderId').textContent = 'Order ID: ' + orderId;
+    document.getElementById('rcptCustomer').textContent = a.name + ' (' + a.phone + '), ' + [a.flat, a.area, a.city, a.state, a.pin].filter(Boolean).join(', ');
+    document.getElementById('rcptMethod').textContent = method === 'cod' ? 'Cash on Delivery (Pay on Arrival)' : 'UPI Verified (Ref: ' + (txn.value.trim() || 'Paid') + ')';
+    document.getElementById('rcptTotal').textContent = fmt(t.total);
+
+    var tbody = document.getElementById('rcptItems');
+    tbody.innerHTML = cart.map(function (i) {
+      return '<tr><td><strong>' + i.name + '</strong><br><small style="color:var(--muted)">' + (i.spec || '') + '</small></td><td>' + i.qty + '</td><td style="text-align:right">' + fmt(i.price * i.qty) + '</td></tr>';
+    }).join('');
+
+    var waMsg = 'Hi Apex Store, I placed order ' + orderId + ' for total ' + fmt(t.total) + ' (' + a.name + '). Please confirm delivery dispatch updates!';
+    document.getElementById('rcptWhatsApp').href = 'https://wa.me/919665687711?text=' + encodeURIComponent(waMsg);
+
+    document.getElementById('receiptModal').hidden = false;
+
+    // Reset cart
+    cart = [];
+    saveCart();
+    render();
+  }
+
+  function placeOrder(txnRef) {
+    var a = memAddr || loadAddr();
+    if (!a || !a.name) {
+      codError.textContent = 'Add and use your delivery details above before placing your order.';
+      codError.hidden = false;
+      return;
+    }
+    var btn = form.querySelector('button');
+    btn.disabled = true;
+    codError.hidden = true;
+    var orderId = 'APEX-IND-' + Math.floor(100000 + Math.random() * 900000);
+    var t = totals();
+
+    try { sendOrder(txnRef); } catch (e) {}
+
+    setTimeout(function () {
+      btn.disabled = false;
+      showReceipt(orderId, a, t);
+    }, 500);
+  }
+
+  function placeCod() {
+    placeOrder('');
+  }
+
+  function showError(message) {
+    txn.setAttribute('aria-invalid', 'true');
+    txn.setAttribute('aria-describedby', 'txnError txnHelp');
+    err.textContent = message;
+    err.hidden = false;
+    txn.focus();
+  }
+
+  /* ---------- Delivery details ----------
+     Saved details stay in this browser's localStorage. They are never sent to a server.
+     Before storing customer data on a server, follow applicable Indian data protection
+     rules, such as the Digital Personal Data Protection Act, 2023 (notice, consent,
+     purpose limitation, security safeguards and a grievance route).
+     PLACEHOLDER: the PIN table below is a small sample. Replace it with a full PIN
+     directory or a PIN lookup service before launch. */
+  var ADDR_KEY = 'apexStoreDelivery';
+  var memAddr = null;                       // in-memory fallback when storage is unavailable
+  var PIN_TABLE = {
+    '400028': ['Maharashtra', 'Mumbai'], '400014': ['Maharashtra', 'Mumbai'],
+    '400001': ['Maharashtra', 'Mumbai'], '411001': ['Maharashtra', 'Pune'],
+    '110001': ['Delhi', 'New Delhi'], '560001': ['Karnataka', 'Bengaluru'],
+    '600001': ['Tamil Nadu', 'Chennai'], '700001': ['West Bengal', 'Kolkata'],
+    '500001': ['Telangana', 'Hyderabad'], '201301': ['Uttar Pradesh', 'Noida']
+  };
+  var STATES = ['Andaman and Nicobar Islands','Andhra Pradesh','Arunachal Pradesh','Assam','Bihar','Chandigarh',
+    'Chhattisgarh','Dadra and Nagar Haveli and Daman and Diu','Delhi','Goa','Gujarat','Haryana','Himachal Pradesh',
+    'Jammu and Kashmir','Jharkhand','Karnataka','Kerala','Ladakh','Lakshadweep','Madhya Pradesh','Maharashtra',
+    'Manipur','Meghalaya','Mizoram','Nagaland','Odisha','Puducherry','Punjab','Rajasthan','Sikkim','Tamil Nadu',
+    'Telangana','Tripura','Uttar Pradesh','Uttarakhand','West Bengal'];
+  var FIELDS = [
+    { id: 'dName', key: 'name', required: 'Enter your full name.' },
+    { id: 'dPhone', key: 'phone', required: 'Enter your phone number.' },
+    { id: 'dEmail', key: 'email', required: null },
+    { id: 'dPin', key: 'pin', required: 'Enter your 6-digit PIN code.' },
+    { id: 'dArea', key: 'area', required: 'Enter your locality or area.' },
+    { id: 'dLine', key: 'flat', required: 'Enter your flat, house number or street.' },
+    { id: 'dLandmark', key: 'landmark', required: null },
+    { id: 'dCity', key: 'city', required: 'Enter your city.' },
+    { id: 'dState', key: 'state', required: 'Select your state or union territory.' }
+  ];
+  var addrForm = document.getElementById('addrForm');
+  var savedView = document.getElementById('savedView');
+  var saveChk = document.getElementById('saveAddr');
+  var stateSel = document.getElementById('dState');
+  STATES.forEach(function (s) {
+    var o = document.createElement('option'); o.value = s; o.textContent = s; stateSel.appendChild(o);
+  });
+
+  function validateField(f, raw) {
+    var v = raw.trim();
+    if (!v) return f.required || '';
+    if (f.id === 'dPhone' && !/^(\+91|0)?[6-9]\d{9}$/.test(v.replace(/[\s-]/g, ''))) return 'Enter a 10-digit mobile number starting with 6, 7, 8 or 9.';
+    if (f.id === 'dPin' && !/^[1-9]\d{5}$/.test(v)) return 'Enter a 6-digit PIN code that does not start with 0.';
+    if (f.id === 'dEmail' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)) return 'Enter a valid email address, or leave this blank.';
+    return '';
+  }
+
+  // show=true reveals the message (used on blur and submit); otherwise only refreshes an already-shown message.
+  function checkField(f, show) {
+    var el = document.getElementById(f.id), errEl = document.getElementById('err_' + f.id);
+    var msg = validateField(f, el.value);
+    el.setAttribute('aria-invalid', msg ? 'true' : 'false');
+    if (show || el.getAttribute('data-shown') === '1') {
+      errEl.textContent = msg;
+      errEl.hidden = !msg;
+      el.setAttribute('data-shown', msg ? '1' : '0');
+    }
+    return msg;
+  }
+
+  function readForm() {
+    var a = {};
+    FIELDS.forEach(function (f) { a[f.key] = document.getElementById(f.id).value.trim(); });
+    return a;
+  }
+  function fillForm(a) {
+    a = a || {};
+    FIELDS.forEach(function (f) { document.getElementById(f.id).value = a[f.key] || ''; });
+  }
+
+  function loadAddr() {
+    try {
+      var v = JSON.parse(localStorage.getItem(ADDR_KEY));
+      if (v && typeof v === 'object') return v;
+    } catch (e) { /* storage unavailable or blocked */ }
+    return memAddr;
+  }
+  function storeAddr(a, remember) {
+    memAddr = a;
+    try {
+      if (remember) localStorage.setItem(ADDR_KEY, JSON.stringify(a));
+      else localStorage.removeItem(ADDR_KEY);
+    } catch (e) { /* in-memory copy is still used for this visit */ }
+  }
+
+  function showSummary(a) {
+    document.getElementById('sName').textContent = a.name;
+    document.getElementById('sPhone').textContent = a.phone;
+    document.getElementById('sAddr').textContent =
+      [a.flat, a.area, a.landmark, a.city, a.state, a.pin].filter(Boolean).join(', ');
+    savedView.hidden = false;
+    addrForm.hidden = true;
+  }
+  function showForm() {
+    savedView.hidden = true;
+    addrForm.hidden = false;
+  }
+
+  // Sample PIN lookup: fills City and State when a valid 6-digit PIN is found. Fields stay editable.
+  document.getElementById('dPin').addEventListener('input', function () {
+    var v = this.value.trim();
+    if (/^[1-9]\d{5}$/.test(v) && PIN_TABLE[v]) {
+      document.getElementById('dState').value = PIN_TABLE[v][0];
+      document.getElementById('dCity').value = PIN_TABLE[v][1];
+    }
+  });
+  FIELDS.forEach(function (f) {
+    var el = document.getElementById(f.id);
+    el.addEventListener('blur', function () { checkField(f, true); });
+    el.addEventListener('input', function () { checkField(f, false); });
+  });
+
+  addrForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var firstBad = null;
+    FIELDS.forEach(function (f) {
+      if (checkField(f, true) && !firstBad) firstBad = f;
+    });
+    if (firstBad) { document.getElementById(firstBad.id).focus(); return; }
+    var a = readForm();
+    storeAddr(a, saveChk.checked);
+    showSummary(a);
+  });
+
+  document.getElementById('editAddr').addEventListener('click', function () {
+    fillForm(loadAddr());
+    showForm();
+    document.getElementById('dName').focus();
+  });
+  document.getElementById('clearAddr').addEventListener('click', function () {
+    memAddr = null;
+    try { localStorage.removeItem(ADDR_KEY); } catch (e) { /* nothing stored */ }
+    fillForm({});
+    saveChk.checked = true;
+    showForm();
+    document.getElementById('dName').focus();
+  });
+
+  // Pre-fill on load: show the saved summary if there is one, otherwise the empty form.
+  var savedAddr = loadAddr();
+  fillForm(savedAddr);
+  if (savedAddr && savedAddr.name) showSummary(savedAddr); else showForm();
+
+  window.onCartChange = function () { cart = loadCart(); render(); };
+  render();
+  window.STORE.updateHeader();
+})();
+</script>
+</body>
+</html>
